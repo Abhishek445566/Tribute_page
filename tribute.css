@@ -1,0 +1,58 @@
+<style>
+#main{
+  color:white;
+}
+@media (max-width: 450px)
+{
+  #main
+  {
+    margin: 0;
+  }
+}
+
+#title{
+  color:rgb(150,255,255);
+  text-align:center;
+    font-family:Lobster Two;
+  font-size:280%;
+}
+#img-div{
+  margin:0 25% 0;
+  text-align:center;
+}
+#img{
+  width:50%;
+  border-radius:10%;
+}
+#img-caption{
+ color:white;
+  font-size:30px;
+}
+@media (max-width: 450px) 
+{
+  #img-caption 
+  {
+    font-size: 1.4rem;
+  }
+}
+#tribute-info{
+    font-family:Lobster Two;
+  text-align:center;
+ font-size:200%;
+  margin:0 20% 0 20%;
+border-style:solid;
+  border-color:hsl(5,10%,20%);
+  border-radius:3%;
+}
+
+body{
+  background-image: linear-gradient(90deg,rgba(50,50,50,0.6),rgba(50,50,50,0.6)),url("https://st1.bollywoodlife.com/wp-content/uploads/2018/04/dara-singh.jpg?impolicy=Medium_Resize&w=1200&h=800");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+#tribute-link{
+  color:yellow;
+}
+</style>
